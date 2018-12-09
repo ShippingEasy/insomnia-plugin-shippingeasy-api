@@ -1,0 +1,12 @@
+{
+  "name": "insomnia-plugin-shippingeasy-api",
+  "version": "1.0.0",
+  "main": "plugin.js",
+  "insomnia": {
+    "name": "shippingeasy-api",
+    "description": "Signs requests to the ShippingEasy API"
+  },
+  "dependencies": {
+    "shippingeasy": "^0.1.0"
+  }
+}
