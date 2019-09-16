@@ -7,6 +7,6 @@
     "description": "Signs requests to the ShippingEasy API"
   },
   "dependencies": {
-    "shippingeasy": "^0.1.0"
+    "shippingeasy": "^0.2.0"
   }
 }

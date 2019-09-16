@@ -2,6 +2,7 @@
 # yarn lockfile v1
 
 
-shippingeasy@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/shippingeasy/-/shippingeasy-0.1.0.tgz#a0692bd160bf2c6c25e1dd955223ca72dc5d772a"
+shippingeasy@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/shippingeasy/-/shippingeasy-0.2.0.tgz#01c7b580834b21f85e938c4306d76628b7cb06b4"
+  integrity sha512-ey2ude6xaUpvg6nv0oyUAWT+jeFs3ag0430NAucZWQEiA/y6vWPdEyxSf+Cc9Lcvmf9B9sZbMu/J1gEPvUguTA==

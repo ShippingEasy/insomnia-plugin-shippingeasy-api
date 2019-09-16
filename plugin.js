@@ -22,13 +22,7 @@ const appendSigningQuerystrings = context => {
     }
   }
 
-  // Handle the fact that the ShippingEasy backend always assumes a default
-  // JSON body when calculating the signature
-  let body = context.request.getBodyText();
-  if (!body.length){
-    body = "{}"
-    context.request.setBodyText(body);
-  }
+  const body = context.request.getBodyText();
 
   context.request.setParameter("api_timestamp", timestamp);
   context.request.setParameter("api_key", api_key);
